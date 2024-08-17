@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    database: postgresql
+    show-sql: true
+  datasource:
+    password: postgres
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/sale_management
+  application:
+    name: 10_NHOEM_BROS_SPRING_DATA_JPA_HOMEWORK
+server:
+  port: 8089
